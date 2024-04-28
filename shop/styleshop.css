@@ -1,0 +1,178 @@
+<style>
+        /* Reset some default styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        main>.container {
+            background-image:url("https://www.shuterstock.com/image-photo/collage-young-couple-posing-fashionable-260nw-1785066320.jpg");
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav a {
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        /* Main section styles */
+        main {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .main-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #666;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+
+        /* Featured products section */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 40px 0;
+            background-color: #fff;
+        }
+
+        .product {
+            flex: 0 0 calc(33.33% - 40px);
+            max-width: calc(33.33% - 40px);
+            margin: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-title {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .product-price {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .footer-logo img {
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .footer-text {
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+
+        .footer-social {
+            margin-top: 20px;
+        }
+
+        .footer-social a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 1.2rem;
+            margin-right: 10px;
+            color: #fff;
+            border-radius: 50%;
+            background-color: #555;
+            transition: background-color 0.3s ease;
+        }
+
+        .footer-social a:hover {
+            background-color: #777;
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                flex: 0 0 calc(50% - 40px);
+                max-width: calc(50% - 40px);
+            }
+        }
+    </style>
